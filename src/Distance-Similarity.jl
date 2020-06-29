@@ -1,4 +1,4 @@
-module Distance
+module Distance_Similarity
 
 export euclidean_dist
 export manhattan_dist
