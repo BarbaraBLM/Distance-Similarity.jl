@@ -85,7 +85,7 @@ function minkowski_dist(u::AbstractArray, v::AbstractArray, p::Int)
 		return -1
 	end
 	if(p < 1)
-		throw(ArgumentError(" p must be at least 1")
+		throw(ArgumentError(" p must be at least 1"))
 		return -1
 	end
 	return ((sum((abs.(u .- v)).^p))^(1/p))
@@ -111,7 +111,7 @@ function weighted_minkowski_dist(u::AbstractArray, v::AbstractArray, w::Abstract
 		return -1
 	end
 	if(p < 1)
-		throw(ArgumentError("p must be at least 1")
+		throw(ArgumentError("p must be at least 1"))
 		return -1
 	end
 	
